@@ -1,6 +1,6 @@
 ##  📖 Popular
 
-> [Añadir, ver y eliminar usuarios de una lista.]()
+> [Añadir, ver y eliminar usuarios de una lista.](https://github.com/elmarcz/Guide-megadb/blob/main/src/Add-and-delete-users.js)
 
 > [Establecer el canal y enviar un mensaje sólo a ese canal]()
 
