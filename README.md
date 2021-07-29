@@ -1,7 +1,7 @@
 # megadb Guide📚
 ##  📖 Popular
 
-> [Add, view and delete users from a list.]()
+> [Add, view and delete users from a list.](https://github.com/elmarcz/Easy-megadb/blob/main/src/Add-and-delete-users.js)
 
 > [Set channel and send a message to that channel only]()
 
