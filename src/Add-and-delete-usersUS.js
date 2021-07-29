@@ -13,15 +13,15 @@ let vip = new db.crearDB('vip'); //Here we access and create a db called "vip" i
     
       if(supervip.tiene(id)){//Aquí revisamos que el aútor del mensaje este en la db de supervip
         let user = message.mentions.members.first();
-        if(!user) return message.channel.send ("__¡Debes mencionar a un usuario!__")
-        if(vip.has(user.id))return message.channel.send("__**Este usuario ya esta registrado.**__")//Aquí miramos si el usuario mencionado SI está en la db de "vip"
+        if(!user) return message.channel.send ("__¡You must mention a user!__")
+        if(vip.has(user.id))return message.channel.send("__**This user is already registered.**__")//Aquí miramos si el usuario mencionado SI está en la db de "vip"
         vip.establecer(user.id, user.user.tag);
         const embed = new Discord.MessageEmbed()
-            .setDescription("__"+user.user.tag+"__ **ha sido añadido a los usuarios VIP.**")
+            .setDescription("__"+user.user.tag+"__ **has been added to VIP users.**")
             .setColor("Red")
         message.channel.send(embed)
   }else{
-    message.channel.send("No tienes suficientes permisos para hacer eso.")
+    message.channel.send("You don't have enough permissions to do that.")
   }
  }});
 
@@ -44,7 +44,7 @@ let supervip = new db.crearDB('supervip'); //Creamos una db por encíma de vip p
             .setColor("Red")
         message.channel.send(embed)
   }else{
-        message.channel.send("No tienes suficientes permisos para hacer eso.")
+        message.channel.send("You don't have enough permissions to do that.")
   }
  }});
 //______LISTA______
@@ -53,6 +53,7 @@ client.on('message', (message) => {
 let vip = new db.crearDB('vip');//Here we access and create a db called "vip" if it does not exist.
 let supervip = new db.crearDB('supervip'); //Create a db above vip so that vip cannot self-delete or delete others.
     if(message.guild == null) return; //Check that the channel is not dm. if it is, it will do nothing.
+    if(supervip.tiene(id)){
     if(vip.size() < 1) return message.channel.send('Ther are no users in this db'); //If there are no users in the db this sends a message.
     
     // Now the word 'key' is the main name of the JSON ex:
@@ -76,4 +77,4 @@ let supervip = new db.crearDB('supervip'); //Create a db above vip so that vip c
       // as much data as you have added
     }) 
 
-}});
+    }}});
