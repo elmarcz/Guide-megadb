@@ -2,7 +2,7 @@
 
 > [Añadir, ver y eliminar usuarios de una lista.](https://github.com/elmarcz/Guide-megadb/blob/main/src/a%C3%B1adir%2C%20ver%20y%20eliminar.js)
 
-> [Establecer el canal y enviar un mensaje sólo a ese canal]()
+> [Establecer el canal y enviar un mensaje sólo a ese canal](https://github.com/elmarcz/Guide-megadb/blob/main/src/canal.js)
 
 ### ⁉ Que és megadb? 
 megadb es un manejador de archivos JSON, contiene múltiples métodos que te facilitarán las cosas y te permitirán trabajar de forma sencilla, persistente y eficiente.
