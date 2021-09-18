@@ -7,3 +7,10 @@
   <a href="https://github.com/elmarcz/Guide-megadb/blob/main/src/us.md" target="blank"><img src="https://i.ibb.co/XLtqf6j/Flag-of-the-United-States.png" width="100" alt="90" /></a>
  </p> 
  
+ ## 👤 Stay in touch
+- [Website](https://elmarcz.github.io/portfolio/)
+- [Twitter](https://twitter.com/MarcMedrano15)
+- [Discord](https://discord.com/invite/zPSYDGVXxx)
+- [Instagram](https://www.instagram.com/marcmedranoz/)
+
+### 🔅 Made by Marc Medrano
